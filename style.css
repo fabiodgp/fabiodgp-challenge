@@ -26,7 +26,6 @@ header img { /*logo*/
 
 header div { /*titolo*/
   font-size: 160%;
-  text-align: center;
   color: #37EB47
 }
 
@@ -34,10 +33,8 @@ nav { /*barra navigazione*/
   padding: 1%;
 }
 
-nav div { /*contenitore pulsanti*/
-  width: 75%;
-  display: flex;
-  justify-content: center;
+header div, nav div { /*titolo+contenitore pulsanti*/
+  text-align: center;
 }
 
 header img, nav div { /*logo+contenitore pulsanti*/
