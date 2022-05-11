@@ -1,76 +1,64 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>boolean challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div> <!--contenitore generale -->
+      <header> <!--logo+titolo-->
+        <img src="img/logo.png">
+        <div><strong>Taking Booleaners from A to B</strong></div>
+      </header>
 
-body {
-  background-image: url(img/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: 'Poppins', sans-serif;
-}
+      <nav> <!--barra navigazione con pulsanti-->
+        <div>
+          <form action="index.html" method="post">
+            <button type="button" name="button">Prenota</button>
+            <button type="button" name="button">Termina Prenotazione</button>
+            <button type="button" name="button">Accendi Luci</button>
+          </form>
+        </div>
+      </nav>
 
-body > div {  /*contenitore generale*/
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  margin: auto;
-  margin-top: 10px;
-  width: 70%;
-  padding: 65px;
-}
+      <main> <!--sezione principale info monopattini-->
+        <br>
 
-header img { /*logo*/
-  width: 25%;
-  display: block;
-  margin: auto;
-}
+        <section> <!--Gino-->
+          <form action="index.html" method="post">
+            <h2><input type="checkbox"> Monopattino Gino22</h2>
+          </form>
+          <div>&#8614; Via Guadalametri - a 220 metri da te</div>
+          <div>Stato carica:</div>
+          <div class="statocarica charge1"></div>
+        </section>
 
-header div { /*titolo*/
-  font-size: 160%;
-  color: #37EB47
-}
+        <br>
 
-nav { /*barra navigazione*/
-  padding: 1%;
-  line-height: 10%;
-}
+        <section> <!--Mike24-->
+          <form action="index.html" method="post">
+            <h2><input type="checkbox"> Monopattino Mike24</h2>
+          </form>
+          <div>&#8614; Via Ricciardoni - a 420 metri da te</div>
+          <div>Stato carica:</div>
+          <div class="statocarica charge2"></div>
+        </section>
 
-header div, nav div { /*titolo+contenitore pulsanti*/
-  text-align: center;
-}
+        <br>
 
-button { /*pulsanti*/
-  font-size: 10px;
-  margin: 2px;
-}
-
-main section { /*info Monopattini*/
-  color: white;
-}
-
-section div { /*distanza + stato carica*/
-  font-size: 15px;
-}
-
-.statocarica { /*indicatore carica*/
-  height: 20px;
-  border-radius: 5px;
-}
-
-.charge1 { /*indicatore1*/
-  width: 40%;
-  background-color: #F4B941;
-}
-
-.charge2 { /*indicatore2*/
-  width: 55%;
-}
-
-.charge3 { /*indicatore3*/
-  width: 20%;
-  background-color: #E4464D;
-}
-
-nav, .charge2 { /*barra navigazione+indicatore2*/
-  background-color: #37EB47;
-}
+        <section> <!--Fede154-->
+          <form action="index.html" method="post">
+            <h2><input type="checkbox"> Monopattino Fede154</h2>
+          </form>
+          <div>&#8614; Via Mentarini - a 490 metri da te</div>
+          <div>Stato carica:</div>
+          <div class="statocarica charge3"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
