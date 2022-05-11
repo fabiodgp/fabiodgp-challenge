@@ -32,6 +32,7 @@ header div { /*titolo*/
 
 nav { /*barra navigazione*/
   padding: 1%;
+  line-height: 10%;
 }
 
 header div, nav div { /*titolo+contenitore pulsanti*/
