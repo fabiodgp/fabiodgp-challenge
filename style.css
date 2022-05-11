@@ -22,6 +22,7 @@ body > div {  /*contenitore generale*/
 header img { /*logo*/
   width: 25%;
   display: block;
+  margin: auto;
 }
 
 header div { /*titolo*/
@@ -35,10 +36,6 @@ nav { /*barra navigazione*/
 
 header div, nav div { /*titolo+contenitore pulsanti*/
   text-align: center;
-}
-
-header img, nav div { /*logo+contenitore pulsanti*/
-  margin: auto;
 }
 
 button { /*pulsanti*/
