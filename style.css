@@ -52,25 +52,25 @@ section div { /*distanza + stato carica*/
   font-size: 15px;
 }
 
-section div:last-child { /*indicatore carica*/
+.statocarica { /*indicatore carica*/
   height: 20px;
   border-radius: 5px;
 }
 
-.statocarica1 { /*indicatore1*/
+.charge1 { /*indicatore1*/
   width: 40%;
   background-color: #F4B941;
 }
 
-.statocarica2 { /*indicatore2*/
+.charge2 { /*indicatore2*/
   width: 55%;
 }
 
-.statocarica3 { /*indicatore3*/
+.charge3 { /*indicatore3*/
   width: 20%;
   background-color: #E4464D;
 }
 
-nav, .statocarica2 { /*barra navigazione+indicatore2*/
+nav, .charge2 { /*barra navigazione+indicatore2*/
   background-color: #37EB47;
 }
